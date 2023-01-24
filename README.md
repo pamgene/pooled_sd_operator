@@ -1,4 +1,4 @@
-# sd operator
+# Pooled SD operator
 
 ##### Description
 `pooled_sd` operator computes the pooled standard deviation of a set of data points divided in N groups.
