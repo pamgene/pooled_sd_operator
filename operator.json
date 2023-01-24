@@ -1,9 +1,9 @@
 {
-  "name": "Standard Deviation",
-  "description": "Calculates the Square Root of the variance from the Mean of a data set.",
+  "name": "Pooled Standard Deviation",
+  "description": "Calculates the pooled standard deviation for data divided in N groups.",
   "tags": ["basic statistics"],
   "authors": ["tercen"],
-  "urls": ["https://github.com/tercen/sd_operator"],
+  "urls": ["https://github.com/pamgene/pooled_sd_operator"],
   "properties": []
 }
 
