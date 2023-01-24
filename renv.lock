@@ -3,8 +3,16 @@
     "Version": "4.0.4",
     "Repositories": [
       {
+        "Name": "TERCEN",
+        "URL": "https://cran.tercen.com/api/v1/rlib/tercen"
+      },
+      {
         "Name": "CRAN",
-        "URL": "https://cran.rstudio.com"
+        "URL": "https://cran.tercen.com/api/v1/rlib/CRAN"
+      },
+      {
+        "Name": "BioCSoft",
+        "URL": "https://cran.tercen.com/api/v1/rlib/BioCsoft-3.8"
       }
     ]
   },
@@ -103,7 +111,8 @@
     "mtercen": {
       "Package": "mtercen",
       "Version": "1.0.8",
-      "Source": "unknown",
+      "Source": "Repository",
+      "Repository": "TERCEN",
       "Hash": "27b03b2685b9424f08521ea09d24860e"
     },
     "openssl": {
@@ -158,14 +167,23 @@
     "teRcenHttp": {
       "Package": "teRcenHttp",
       "Version": "1.0.21",
-      "Source": "unknown",
+      "Source": "Repository",
+      "Repository": "TERCEN",
       "Hash": "18e6c920fb7ddb33ea4e265098ca24c9"
     },
     "tercen": {
       "Package": "tercen",
-      "Version": "0.10.8",
-      "Source": "unknown",
-      "Hash": "7676dd098faf9b2267411f8f129f5d8b"
+      "Version": "0.12.8",
+      "Source": "Repository",
+      "Repository": "TERCEN",
+      "Hash": "b33ed509f38454fcdd234346e83cae05"
+    },
+    "tercenApi": {
+      "Package": "tercenApi",
+      "Version": "0.12.8",
+      "Source": "Repository",
+      "Repository": "TERCEN",
+      "Hash": "e92d54419184d7f403d082988a3c41c3"
     },
     "tibble": {
       "Package": "tibble",
@@ -187,6 +205,13 @@
       "Source": "Repository",
       "Repository": "RSPM",
       "Hash": "4a5081acfb7b81a572e4384a7aaf2af1"
+    },
+    "uuid": {
+      "Package": "uuid",
+      "Version": "1.1-0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "f1cb46c157d080b729159d407be83496"
     },
     "vctrs": {
       "Package": "vctrs",
