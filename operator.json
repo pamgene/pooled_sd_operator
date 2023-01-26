@@ -2,7 +2,7 @@
   "name": "Pooled Standard Deviation",
   "description": "Calculates the pooled standard deviation for data divided in N groups.",
   "tags": ["basic statistics"],
-  "authors": ["tercen"],
+  "authors": ["PamGene"],
   "urls": ["https://github.com/pamgene/pooled_sd_operator"],
   "properties": []
 }
