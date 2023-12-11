@@ -1,7 +1,7 @@
 # Pooled SD operator
 
 ##### Description
-`pooled_sd` operator computes the pooled standard deviation of a set of data points divided in N groups.
+`pooled_sd` operator for Tercen computes the pooled standard deviation of a set of data points divided in N groups.
 
 ##### Usage
 
